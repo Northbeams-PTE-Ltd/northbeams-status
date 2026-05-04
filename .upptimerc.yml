@@ -23,5 +23,3 @@ status-website:
       href: /
     - title: Dashboard
       href: https://monitor.northbeams.com
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
