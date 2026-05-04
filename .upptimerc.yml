@@ -15,7 +15,7 @@ sites:
 
 status-website:
   cname: status.northbeams.com
-  theme: assets/northbeams.css
+  theme: https://status.northbeams.com/assets/northbeams.css
   name: Northbeams Monitor
   introTitle: "**Northbeams Monitor** — uptime and operational status."
   introMessage: Real-time uptime for the marketing site, dashboard, and extension ingestion API. Powered by [Upptime](https://upptime.js.org).
