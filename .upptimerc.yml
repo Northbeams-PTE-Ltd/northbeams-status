@@ -14,9 +14,7 @@ sites:
       - 405
 
 status-website:
-  baseUrl: /northbeams-status
-  # When DNS is ready, comment out baseUrl above and uncomment the cname line:
-  # cname: status.northbeams.com
+  cname: status.northbeams.com
   name: Northbeams Monitor
   introTitle: "**Northbeams Monitor** — uptime and operational status."
   introMessage: Real-time uptime for the marketing site, dashboard, and extension ingestion API. Powered by [Upptime](https://upptime.js.org).
