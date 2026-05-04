@@ -24,5 +24,5 @@ status-website:
   navbar:
     - title: Status
       href: /
-    - title: Dashboard
-      href: https://monitor.northbeams.com
+    - title: Website
+      href: https://northbeams.com
