@@ -1,0 +1,16 @@
+name: validate
+on:
+  pull_request:
+  push:
+    branches: [master]
+jobs:
+  validate:
+    name: validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Upptime config
+        run: |
+          echo "Upptime config check"
+          test -f .upptimerc.yml && echo ".upptimerc.yml OK" || (echo ".upptimerc.yml missing" && exit 1)
+          echo "Validation passed"
