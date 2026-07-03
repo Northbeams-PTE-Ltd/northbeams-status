@@ -2,6 +2,12 @@
 owner: vibejoe
 repo: northbeams-status
 
+# Uptime check interval: every 30 min (Upptime default is every 5 min).
+# Kept at 30 min to stay within the free GitHub Actions tier; lower this value
+# for faster outage detection at higher Actions cost.
+workflowSchedule:
+  uptime: "*/30 * * * *"
+
 sites:
   - name: Marketing site
     url: https://northbeams.com
